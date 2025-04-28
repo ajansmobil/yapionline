@@ -1,5 +1,5 @@
 
-  .zx0ie-body-search {
+  .tx4wp-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .zx0ie-body-search > input {
+  .tx4wp-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .zx0ie-body-search > button {
+  .tx4wp-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .zx0iebodyMenu {
+  .tx4wpbodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .zx0ie-login {
+  .tx4wp-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .zx0ie-login span,
-  .zx0ie-login div {
+  .tx4wp-login span,
+  .tx4wp-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .zx0ie-login:hover {
+  .tx4wp-login:hover {
     background-color: #123763;
   }
 
-  .zx0ie-login > * {
+  .tx4wp-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .zx0ie {
+  .tx4wp {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .zx0ietitle {
+  .tx4wptitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .zx0ietitlebody {
+  .tx4wptitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .zx0ietitlebodytitle {
+  .tx4wptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .zx0ietitlebodylang {
+  .tx4wptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .zx0ietitlebodylang ul {
+  .tx4wptitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .zx0iebody {
+  .tx4wpbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .zx0iemenu {
+  .tx4wpmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .zx0iemenulist {
+  .tx4wpmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .zx0iemenubody {
+  .tx4wpmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .zx0iemenulist ul {
+  .tx4wpmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .zx0iemenulist ul a {
+  .tx4wpmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,47 +155,47 @@
     white-space: nowrap;
   }
 
-  .zx0iemenulist ul a:hover {
+  .tx4wpmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .zx0iemenulistactive {
+  .tx4wpmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .zx0iemenulistbody {
+  .tx4wpmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .zx0iebodylogo {
+    .tx4wpbodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .zx0iemenu {
+    .tx4wpmenu {
       overflow-x: auto;
     }
 
-    .zx0iemenulist ul {
+    .tx4wpmenulist ul {
       flex-direction: row;
     }
 
-    .zx0iebodylogo {
+    .tx4wpbodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .zx0iemenulist ul a {
+    .tx4wpmenulist ul a {
       font-size: 14px;
     }
   }

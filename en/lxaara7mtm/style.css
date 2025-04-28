@@ -1,5 +1,5 @@
 
-  .qvum2-body-search {
+  .d9ms9-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .qvum2-body-search > input {
+  .d9ms9-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .qvum2-body-search > button {
+  .d9ms9-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .qvum2bodyMenu {
+  .d9ms9bodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .qvum2-login {
+  .d9ms9-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .qvum2-login span,
-  .qvum2-login div {
+  .d9ms9-login span,
+  .d9ms9-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .qvum2-login:hover {
+  .d9ms9-login:hover {
     background-color: #123763;
   }
 
-  .qvum2-login > * {
+  .d9ms9-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .qvum2 {
+  .d9ms9 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .qvum2title {
+  .d9ms9title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .qvum2titlebody {
+  .d9ms9titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .qvum2titlebodytitle {
+  .d9ms9titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .qvum2titlebodylang {
+  .d9ms9titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .qvum2titlebodylang ul {
+  .d9ms9titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .qvum2body {
+  .d9ms9body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .qvum2menu {
+  .d9ms9menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .qvum2menulist {
+  .d9ms9menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .qvum2menubody {
+  .d9ms9menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .qvum2menulist ul {
+  .d9ms9menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .qvum2menulist ul a {
+  .d9ms9menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,47 +155,47 @@
     white-space: nowrap;
   }
 
-  .qvum2menulist ul a:hover {
+  .d9ms9menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .qvum2menulistactive {
+  .d9ms9menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .qvum2menulistbody {
+  .d9ms9menulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .qvum2bodylogo {
+    .d9ms9bodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .qvum2menu {
+    .d9ms9menu {
       overflow-x: auto;
     }
 
-    .qvum2menulist ul {
+    .d9ms9menulist ul {
       flex-direction: row;
     }
 
-    .qvum2bodylogo {
+    .d9ms9bodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .qvum2menulist ul a {
+    .d9ms9menulist ul a {
       font-size: 14px;
     }
   }

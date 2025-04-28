@@ -1,5 +1,5 @@
 
-  .z870v-body-search {
+  .hut2x-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .z870v-body-search > input {
+  .hut2x-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .z870v-body-search > button {
+  .hut2x-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .z870vbodyMenu {
+  .hut2xbodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .z870v-login {
+  .hut2x-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .z870v-login span,
-  .z870v-login div {
+  .hut2x-login span,
+  .hut2x-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .z870v-login:hover {
+  .hut2x-login:hover {
     background-color: #123763;
   }
 
-  .z870v-login > * {
+  .hut2x-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .z870v {
+  .hut2x {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .z870vtitle {
+  .hut2xtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .z870vtitlebody {
+  .hut2xtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .z870vtitlebodytitle {
+  .hut2xtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .z870vtitlebodylang {
+  .hut2xtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .z870vtitlebodylang ul {
+  .hut2xtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .z870vbody {
+  .hut2xbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .z870vmenu {
+  .hut2xmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .z870vmenulist {
+  .hut2xmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .z870vmenubody {
+  .hut2xmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .z870vmenulist ul {
+  .hut2xmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .z870vmenulist ul a {
+  .hut2xmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,53 +155,53 @@
     white-space: nowrap;
   }
 
-  .z870vmenulist ul a:hover {
+  .hut2xmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .z870vmenulistactive {
+  .hut2xmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .z870vmenulistbody {
+  .hut2xmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .z870vbodylogo {
+    .hut2xbodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .z870vmenu {
+    .hut2xmenu {
       overflow-x: auto;
     }
 
-    .z870vmenulist ul {
+    .hut2xmenulist ul {
       flex-direction: row;
     }
 
-    .z870vbodylogo {
+    .hut2xbodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .z870vmenulist ul a {
+    .hut2xmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .z748j {
+  .jdkd0 {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -209,27 +209,27 @@
     max-width: var(--max);
   }
 
-  .z748jListChileBodyPrice {
+  .jdkd0ListChileBodyPrice {
     display: flex;
   }
 
-  .z748jListChileBodyPriceBody {
+  .jdkd0ListChileBodyPriceBody {
     display: flex;
     align-items: center;
     flex: 1;
     font-size: 18px;
   }
 
-  .z748jListChileBodyTitle {
+  .jdkd0ListChileBodyTitle {
     display: flex;
   }
 
-  .z748jListChileBodyNumber {
+  .jdkd0ListChileBodyNumber {
     display: flex;
     gap: 5px;
   }
 
-  .z748jListChileBodyNumber > * {
+  .jdkd0ListChileBodyNumber > * {
     border-radius: 100%;
     border: solid 2px #000;
     display: flex;
@@ -240,12 +240,12 @@
     font-size: 18px;
   }
 
-  .z748jListChileBodySpot {
+  .jdkd0ListChileBodySpot {
     opacity: 0.7;
     flex: 1;
   }
 
-  .z748jListChile {
+  .jdkd0ListChile {
     display: flex;
     background-color: #e9e9e9;
     border-radius: 5px;
@@ -253,14 +253,14 @@
     gap: 10px;
   }
 
-  .z748jListChileBody {
+  .jdkd0ListChileBody {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .z748jListChileImg {
+  .jdkd0ListChileImg {
     width: 100px;
     height: 100px;
     background-color: #fff;
@@ -271,7 +271,7 @@
     justify-content: center;
   }
 
-  .z748jListChileImg > img {
+  .jdkd0ListChileImg > img {
     max-width: 100px;
     max-height: 100px;
     background-color: #fff;
@@ -282,20 +282,20 @@
     justify-content: center;
   }
 
-  .z748jTitle {
+  .jdkd0Title {
     background-color: #333;
     border-radius: 5px;
     color: #fff;
     padding: 10px;
   }
 
-  .z748jBody {
+  .jdkd0Body {
     display: flex;
     min-height: 200px;
     gap: 10px;
   }
 
-  .z748jList {
+  .jdkd0List {
     flex: 1;
     border-radius: 5px;
     gap: 10px;
@@ -303,14 +303,14 @@
     flex-direction: column;
   }
 
-  .z748jTotal {
+  .jdkd0Total {
     width: 250px;
 
     display: flex;
     flex-direction: column;
   }
 
-  .z748jTotalBody {
+  .jdkd0TotalBody {
     background-color: #e9e9e9;
     border-radius: 5px;
     padding: 10px;
@@ -319,7 +319,7 @@
     gap: 10px;
   }
 
-  .z748j {
+  .jdkd0 {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -329,7 +329,7 @@
       sans-serif;
   }
 
-  .z748jTitle {
+  .jdkd0Title {
     background: linear-gradient(135deg, #333 0%, #4a4a4a 100%);
     border-radius: 8px;
     color: #fff;
@@ -341,14 +341,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .z748jBody {
+  .jdkd0Body {
     display: flex;
     min-height: 200px;
     gap: 20px;
     flex-wrap: wrap;
   }
 
-  .z748jList {
+  .jdkd0List {
     flex: 1;
     min-width: 300px;
     gap: 15px;
@@ -356,7 +356,7 @@
     flex-direction: column;
   }
 
-  .z748jListChile {
+  .jdkd0ListChile {
     display: flex;
     background-color: #fff;
     border-radius: 10px;
@@ -369,12 +369,12 @@
     position: relative;
   }
 
-  .z748jListChile:hover {
+  .jdkd0ListChile:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
-  .z748jListChileImg {
+  .jdkd0ListChileImg {
     width: 120px;
     height: 120px;
     background-color: #f8f8f8;
@@ -382,49 +382,49 @@
     overflow: hidden;
   }
 
-  .z748jListChileImg > img {
+  .jdkd0ListChileImg > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s;
   }
 
-  .z748jListChileImg > img:hover {
+  .jdkd0ListChileImg > img:hover {
     transform: scale(1.05);
   }
 
-  .z748jListChileBody {
+  .jdkd0ListChileBody {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
 
-  .z748jListChileBodyTitle {
+  .jdkd0ListChileBodyTitle {
     font-size: 1.1em;
     color: #333;
     font-weight: 500;
   }
 
-  .z748jListChileBodySpot {
+  .jdkd0ListChileBodySpot {
     color: #666;
     font-size: 0.9em;
   }
 
-  .z748jListChileBodyPrice {
+  .jdkd0ListChileBodyPrice {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: auto;
   }
 
-  .z748jListChileBodyPriceBody {
+  .jdkd0ListChileBodyPriceBody {
     font-size: 1.2em;
     font-weight: 600;
     color: #2c3e50;
   }
 
-  .z748jListChileBodyNumber {
+  .jdkd0ListChileBodyNumber {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -469,12 +469,12 @@
     opacity: 1;
   }
 
-  .z748jTotal {
+  .jdkd0Total {
     width: 300px;
     min-width: 250px;
   }
 
-  .z748jTotalBody {
+  .jdkd0TotalBody {
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
@@ -527,22 +527,22 @@
   }
 
   @media (max-width: 768px) {
-    .z748jBody {
+    .jdkd0Body {
       flex-direction: column;
     }
 
-    .z748jTotal {
+    .jdkd0Total {
       width: 100%;
     }
 
-    .z748jListChileImg {
+    .jdkd0ListChileImg {
       width: 80px;
       height: 80px;
     }
   }
 
 
-  .rh18a-profile {
+  .qas1i-profile {
     background-color: #111;
     padding: 5px;
     border-radius: 5px;
@@ -552,26 +552,26 @@
     gap: 10px;
   }
 
-  .rh18a-profile > * {
+  .qas1i-profile > * {
     display: flex;
     align-items: center;
   }
 
-  .rh18a-user-img {
+  .qas1i-user-img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
   }
 
-  .rh18a {
+  .qas1i {
     width: var(--max);
     display: flex;
     gap: 15px;
     margin: 10px 0px 10px 0px;
   }
 
-  .rh18a-menu {
+  .qas1i-menu {
     width: 220px;
     padding: 10px;
     background-color: #1e3046;
@@ -582,20 +582,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .rh18a-menu-title {
+  .qas1i-menu-title {
     font-size: 15px;
     opacity: 0.8;
     color: #fff;
     padding: 5px;
   }
 
-  .rh18a-menu-category {
+  .qas1i-menu-category {
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .rh18a-menu-category > a {
+  .qas1i-menu-category > a {
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -610,13 +610,13 @@
     border-width: 0px 0px 1px 0px;
   }
 
-  .rh18a-menu-category > a:hover {
+  .qas1i-menu-category > a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     background-color: #202020;
     border-radius: 10px;
   }
 
-  .rh18a-body {
+  .qas1i-body {
     background-color: #ffffff;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -627,7 +627,7 @@
     min-height: calc(100vh - 230px);
   }
 
-  .rh18a-menu-active {
+  .qas1i-menu-active {
     background-color: #202020 !important;
   }
 

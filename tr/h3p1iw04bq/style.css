@@ -1,5 +1,5 @@
 
-  .q9nio-body-search {
+  .m6gxo-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .q9nio-body-search > input {
+  .m6gxo-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .q9nio-body-search > button {
+  .m6gxo-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .q9niobodyMenu {
+  .m6gxobodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .q9nio-login {
+  .m6gxo-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .q9nio-login span,
-  .q9nio-login div {
+  .m6gxo-login span,
+  .m6gxo-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .q9nio-login:hover {
+  .m6gxo-login:hover {
     background-color: #123763;
   }
 
-  .q9nio-login > * {
+  .m6gxo-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .q9nio {
+  .m6gxo {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .q9niotitle {
+  .m6gxotitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .q9niotitlebody {
+  .m6gxotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .q9niotitlebodytitle {
+  .m6gxotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .q9niotitlebodylang {
+  .m6gxotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .q9niotitlebodylang ul {
+  .m6gxotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .q9niobody {
+  .m6gxobody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .q9niomenu {
+  .m6gxomenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .q9niomenulist {
+  .m6gxomenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .q9niomenubody {
+  .m6gxomenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .q9niomenulist ul {
+  .m6gxomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .q9niomenulist ul a {
+  .m6gxomenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,47 +155,47 @@
     white-space: nowrap;
   }
 
-  .q9niomenulist ul a:hover {
+  .m6gxomenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .q9niomenulistactive {
+  .m6gxomenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .q9niomenulistbody {
+  .m6gxomenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .q9niobodylogo {
+    .m6gxobodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .q9niomenu {
+    .m6gxomenu {
       overflow-x: auto;
     }
 
-    .q9niomenulist ul {
+    .m6gxomenulist ul {
       flex-direction: row;
     }
 
-    .q9niobodylogo {
+    .m6gxobodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .q9niomenulist ul a {
+    .m6gxomenulist ul a {
       font-size: 14px;
     }
   }

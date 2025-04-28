@@ -1,5 +1,5 @@
 
-  .teyo6-body-search {
+  .wbsp4-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .teyo6-body-search > input {
+  .wbsp4-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .teyo6-body-search > button {
+  .wbsp4-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .teyo6bodyMenu {
+  .wbsp4bodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .teyo6-login {
+  .wbsp4-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .teyo6-login span,
-  .teyo6-login div {
+  .wbsp4-login span,
+  .wbsp4-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .teyo6-login:hover {
+  .wbsp4-login:hover {
     background-color: #123763;
   }
 
-  .teyo6-login > * {
+  .wbsp4-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .teyo6 {
+  .wbsp4 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .teyo6title {
+  .wbsp4title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .teyo6titlebody {
+  .wbsp4titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .teyo6titlebodytitle {
+  .wbsp4titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .teyo6titlebodylang {
+  .wbsp4titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .teyo6titlebodylang ul {
+  .wbsp4titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .teyo6body {
+  .wbsp4body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .teyo6menu {
+  .wbsp4menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .teyo6menulist {
+  .wbsp4menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .teyo6menubody {
+  .wbsp4menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .teyo6menulist ul {
+  .wbsp4menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .teyo6menulist ul a {
+  .wbsp4menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,53 +155,53 @@
     white-space: nowrap;
   }
 
-  .teyo6menulist ul a:hover {
+  .wbsp4menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .teyo6menulistactive {
+  .wbsp4menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .teyo6menulistbody {
+  .wbsp4menulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .teyo6bodylogo {
+    .wbsp4bodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .teyo6menu {
+    .wbsp4menu {
       overflow-x: auto;
     }
 
-    .teyo6menulist ul {
+    .wbsp4menulist ul {
       flex-direction: row;
     }
 
-    .teyo6bodylogo {
+    .wbsp4bodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .teyo6menulist ul a {
+    .wbsp4menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .lx48n {
+  .hr50e {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -213,7 +213,7 @@
     width: 100%;
   }
 
-  .lx48nTitle {
+  .hr50eTitle {
     background: linear-gradient(135deg, #333 0%, #4a4a4a 100%);
     border-radius: 8px;
     color: #fff;
@@ -225,7 +225,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .lx48nBody {
+  .hr50eBody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -452,7 +452,7 @@
   }
 
 
-  .wcjy4-profile {
+  .zza54-profile {
     background-color: #111;
     padding: 5px;
     border-radius: 5px;
@@ -462,26 +462,26 @@
     gap: 10px;
   }
 
-  .wcjy4-profile > * {
+  .zza54-profile > * {
     display: flex;
     align-items: center;
   }
 
-  .wcjy4-user-img {
+  .zza54-user-img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
   }
 
-  .wcjy4 {
+  .zza54 {
     width: var(--max);
     display: flex;
     gap: 15px;
     margin: 10px 0px 10px 0px;
   }
 
-  .wcjy4-menu {
+  .zza54-menu {
     width: 220px;
     padding: 10px;
     background-color: #1e3046;
@@ -492,20 +492,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .wcjy4-menu-title {
+  .zza54-menu-title {
     font-size: 15px;
     opacity: 0.8;
     color: #fff;
     padding: 5px;
   }
 
-  .wcjy4-menu-category {
+  .zza54-menu-category {
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .wcjy4-menu-category > a {
+  .zza54-menu-category > a {
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -520,13 +520,13 @@
     border-width: 0px 0px 1px 0px;
   }
 
-  .wcjy4-menu-category > a:hover {
+  .zza54-menu-category > a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     background-color: #202020;
     border-radius: 10px;
   }
 
-  .wcjy4-body {
+  .zza54-body {
     background-color: #ffffff;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -537,7 +537,7 @@
     min-height: calc(100vh - 230px);
   }
 
-  .wcjy4-menu-active {
+  .zza54-menu-active {
     background-color: #202020 !important;
   }
 

@@ -1,5 +1,5 @@
 
-  .fd744-body-search {
+  .n6fne-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .fd744-body-search > input {
+  .n6fne-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .fd744-body-search > button {
+  .n6fne-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .fd744bodyMenu {
+  .n6fnebodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .fd744-login {
+  .n6fne-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .fd744-login span,
-  .fd744-login div {
+  .n6fne-login span,
+  .n6fne-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .fd744-login:hover {
+  .n6fne-login:hover {
     background-color: #123763;
   }
 
-  .fd744-login > * {
+  .n6fne-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .fd744 {
+  .n6fne {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .fd744title {
+  .n6fnetitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .fd744titlebody {
+  .n6fnetitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .fd744titlebodytitle {
+  .n6fnetitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .fd744titlebodylang {
+  .n6fnetitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .fd744titlebodylang ul {
+  .n6fnetitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .fd744body {
+  .n6fnebody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .fd744menu {
+  .n6fnemenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .fd744menulist {
+  .n6fnemenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .fd744menubody {
+  .n6fnemenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .fd744menulist ul {
+  .n6fnemenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .fd744menulist ul a {
+  .n6fnemenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,53 +155,53 @@
     white-space: nowrap;
   }
 
-  .fd744menulist ul a:hover {
+  .n6fnemenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .fd744menulistactive {
+  .n6fnemenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .fd744menulistbody {
+  .n6fnemenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .fd744bodylogo {
+    .n6fnebodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .fd744menu {
+    .n6fnemenu {
       overflow-x: auto;
     }
 
-    .fd744menulist ul {
+    .n6fnemenulist ul {
       flex-direction: row;
     }
 
-    .fd744bodylogo {
+    .n6fnebodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .fd744menulist ul a {
+    .n6fnemenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .gxqc1 {
+  .xszls {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -209,27 +209,27 @@
     max-width: var(--max);
   }
 
-  .gxqc1ListChileBodyPrice {
+  .xszlsListChileBodyPrice {
     display: flex;
   }
 
-  .gxqc1ListChileBodyPriceBody {
+  .xszlsListChileBodyPriceBody {
     display: flex;
     align-items: center;
     flex: 1;
     font-size: 18px;
   }
 
-  .gxqc1ListChileBodyTitle {
+  .xszlsListChileBodyTitle {
     display: flex;
   }
 
-  .gxqc1ListChileBodyNumber {
+  .xszlsListChileBodyNumber {
     display: flex;
     gap: 5px;
   }
 
-  .gxqc1ListChileBodyNumber > * {
+  .xszlsListChileBodyNumber > * {
     border-radius: 100%;
     border: solid 2px #000;
     display: flex;
@@ -240,12 +240,12 @@
     font-size: 18px;
   }
 
-  .gxqc1ListChileBodySpot {
+  .xszlsListChileBodySpot {
     opacity: 0.7;
     flex: 1;
   }
 
-  .gxqc1ListChile {
+  .xszlsListChile {
     display: flex;
     background-color: #e9e9e9;
     border-radius: 5px;
@@ -253,14 +253,14 @@
     gap: 10px;
   }
 
-  .gxqc1ListChileBody {
+  .xszlsListChileBody {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .gxqc1ListChileImg {
+  .xszlsListChileImg {
     width: 100px;
     height: 100px;
     background-color: #fff;
@@ -271,7 +271,7 @@
     justify-content: center;
   }
 
-  .gxqc1ListChileImg > img {
+  .xszlsListChileImg > img {
     max-width: 100px;
     max-height: 100px;
     background-color: #fff;
@@ -282,20 +282,20 @@
     justify-content: center;
   }
 
-  .gxqc1Title {
+  .xszlsTitle {
     background-color: #333;
     border-radius: 5px;
     color: #fff;
     padding: 10px;
   }
 
-  .gxqc1Body {
+  .xszlsBody {
     display: flex;
     min-height: 200px;
     gap: 10px;
   }
 
-  .gxqc1List {
+  .xszlsList {
     flex: 1;
     border-radius: 5px;
     gap: 10px;
@@ -303,14 +303,14 @@
     flex-direction: column;
   }
 
-  .gxqc1Total {
+  .xszlsTotal {
     width: 250px;
 
     display: flex;
     flex-direction: column;
   }
 
-  .gxqc1TotalBody {
+  .xszlsTotalBody {
     background-color: #e9e9e9;
     border-radius: 5px;
     padding: 10px;
@@ -319,7 +319,7 @@
     gap: 10px;
   }
 
-  .gxqc1 {
+  .xszls {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -329,7 +329,7 @@
       sans-serif;
   }
 
-  .gxqc1Title {
+  .xszlsTitle {
     background: linear-gradient(135deg, #333 0%, #4a4a4a 100%);
     border-radius: 8px;
     color: #fff;
@@ -341,14 +341,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .gxqc1Body {
+  .xszlsBody {
     display: flex;
     min-height: 200px;
     gap: 20px;
     flex-wrap: wrap;
   }
 
-  .gxqc1List {
+  .xszlsList {
     flex: 1;
     min-width: 300px;
     gap: 15px;
@@ -356,7 +356,7 @@
     flex-direction: column;
   }
 
-  .gxqc1ListChile {
+  .xszlsListChile {
     display: flex;
     background-color: #fff;
     border-radius: 10px;
@@ -369,12 +369,12 @@
     position: relative;
   }
 
-  .gxqc1ListChile:hover {
+  .xszlsListChile:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
-  .gxqc1ListChileImg {
+  .xszlsListChileImg {
     width: 120px;
     height: 120px;
     background-color: #f8f8f8;
@@ -382,49 +382,49 @@
     overflow: hidden;
   }
 
-  .gxqc1ListChileImg > img {
+  .xszlsListChileImg > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s;
   }
 
-  .gxqc1ListChileImg > img:hover {
+  .xszlsListChileImg > img:hover {
     transform: scale(1.05);
   }
 
-  .gxqc1ListChileBody {
+  .xszlsListChileBody {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
 
-  .gxqc1ListChileBodyTitle {
+  .xszlsListChileBodyTitle {
     font-size: 1.1em;
     color: #333;
     font-weight: 500;
   }
 
-  .gxqc1ListChileBodySpot {
+  .xszlsListChileBodySpot {
     color: #666;
     font-size: 0.9em;
   }
 
-  .gxqc1ListChileBodyPrice {
+  .xszlsListChileBodyPrice {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: auto;
   }
 
-  .gxqc1ListChileBodyPriceBody {
+  .xszlsListChileBodyPriceBody {
     font-size: 1.2em;
     font-weight: 600;
     color: #2c3e50;
   }
 
-  .gxqc1ListChileBodyNumber {
+  .xszlsListChileBodyNumber {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -469,12 +469,12 @@
     opacity: 1;
   }
 
-  .gxqc1Total {
+  .xszlsTotal {
     width: 300px;
     min-width: 250px;
   }
 
-  .gxqc1TotalBody {
+  .xszlsTotalBody {
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
@@ -527,22 +527,22 @@
   }
 
   @media (max-width: 768px) {
-    .gxqc1Body {
+    .xszlsBody {
       flex-direction: column;
     }
 
-    .gxqc1Total {
+    .xszlsTotal {
       width: 100%;
     }
 
-    .gxqc1ListChileImg {
+    .xszlsListChileImg {
       width: 80px;
       height: 80px;
     }
   }
 
 
-  .p2hnu-profile {
+  .zw757-profile {
     background-color: #111;
     padding: 5px;
     border-radius: 5px;
@@ -552,26 +552,26 @@
     gap: 10px;
   }
 
-  .p2hnu-profile > * {
+  .zw757-profile > * {
     display: flex;
     align-items: center;
   }
 
-  .p2hnu-user-img {
+  .zw757-user-img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
   }
 
-  .p2hnu {
+  .zw757 {
     width: var(--max);
     display: flex;
     gap: 15px;
     margin: 10px 0px 10px 0px;
   }
 
-  .p2hnu-menu {
+  .zw757-menu {
     width: 220px;
     padding: 10px;
     background-color: #1e3046;
@@ -582,20 +582,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .p2hnu-menu-title {
+  .zw757-menu-title {
     font-size: 15px;
     opacity: 0.8;
     color: #fff;
     padding: 5px;
   }
 
-  .p2hnu-menu-category {
+  .zw757-menu-category {
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .p2hnu-menu-category > a {
+  .zw757-menu-category > a {
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -610,13 +610,13 @@
     border-width: 0px 0px 1px 0px;
   }
 
-  .p2hnu-menu-category > a:hover {
+  .zw757-menu-category > a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     background-color: #202020;
     border-radius: 10px;
   }
 
-  .p2hnu-body {
+  .zw757-body {
     background-color: #ffffff;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -627,7 +627,7 @@
     min-height: calc(100vh - 230px);
   }
 
-  .p2hnu-menu-active {
+  .zw757-menu-active {
     background-color: #202020 !important;
   }
 

@@ -1,5 +1,5 @@
 
-  .tx4wp-body-search {
+  .da64b-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .tx4wp-body-search > input {
+  .da64b-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .tx4wp-body-search > button {
+  .da64b-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .tx4wpbodyMenu {
+  .da64bbodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .tx4wp-login {
+  .da64b-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .tx4wp-login span,
-  .tx4wp-login div {
+  .da64b-login span,
+  .da64b-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .tx4wp-login:hover {
+  .da64b-login:hover {
     background-color: #123763;
   }
 
-  .tx4wp-login > * {
+  .da64b-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .tx4wp {
+  .da64b {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .tx4wptitle {
+  .da64btitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .tx4wptitlebody {
+  .da64btitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .tx4wptitlebodytitle {
+  .da64btitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .tx4wptitlebodylang {
+  .da64btitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .tx4wptitlebodylang ul {
+  .da64btitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .tx4wpbody {
+  .da64bbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .tx4wpmenu {
+  .da64bmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .tx4wpmenulist {
+  .da64bmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .tx4wpmenubody {
+  .da64bmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .tx4wpmenulist ul {
+  .da64bmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .tx4wpmenulist ul a {
+  .da64bmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,47 +155,47 @@
     white-space: nowrap;
   }
 
-  .tx4wpmenulist ul a:hover {
+  .da64bmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .tx4wpmenulistactive {
+  .da64bmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .tx4wpmenulistbody {
+  .da64bmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .tx4wpbodylogo {
+    .da64bbodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .tx4wpmenu {
+    .da64bmenu {
       overflow-x: auto;
     }
 
-    .tx4wpmenulist ul {
+    .da64bmenulist ul {
       flex-direction: row;
     }
 
-    .tx4wpbodylogo {
+    .da64bbodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .tx4wpmenulist ul a {
+    .da64bmenulist ul a {
       font-size: 14px;
     }
   }

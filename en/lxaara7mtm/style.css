@@ -1,5 +1,5 @@
 
-  .d9ms9-body-search {
+  .fuef2-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .d9ms9-body-search > input {
+  .fuef2-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .d9ms9-body-search > button {
+  .fuef2-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .d9ms9bodyMenu {
+  .fuef2bodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .d9ms9-login {
+  .fuef2-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .d9ms9-login span,
-  .d9ms9-login div {
+  .fuef2-login span,
+  .fuef2-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .d9ms9-login:hover {
+  .fuef2-login:hover {
     background-color: #123763;
   }
 
-  .d9ms9-login > * {
+  .fuef2-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .d9ms9 {
+  .fuef2 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .d9ms9title {
+  .fuef2title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .d9ms9titlebody {
+  .fuef2titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .d9ms9titlebodytitle {
+  .fuef2titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .d9ms9titlebodylang {
+  .fuef2titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .d9ms9titlebodylang ul {
+  .fuef2titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .d9ms9body {
+  .fuef2body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .d9ms9menu {
+  .fuef2menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .d9ms9menulist {
+  .fuef2menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .d9ms9menubody {
+  .fuef2menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .d9ms9menulist ul {
+  .fuef2menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .d9ms9menulist ul a {
+  .fuef2menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,47 +155,47 @@
     white-space: nowrap;
   }
 
-  .d9ms9menulist ul a:hover {
+  .fuef2menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .d9ms9menulistactive {
+  .fuef2menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .d9ms9menulistbody {
+  .fuef2menulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .d9ms9bodylogo {
+    .fuef2bodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .d9ms9menu {
+    .fuef2menu {
       overflow-x: auto;
     }
 
-    .d9ms9menulist ul {
+    .fuef2menulist ul {
       flex-direction: row;
     }
 
-    .d9ms9bodylogo {
+    .fuef2bodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .d9ms9menulist ul a {
+    .fuef2menulist ul a {
       font-size: 14px;
     }
   }

@@ -1,5 +1,5 @@
 
-  .y5xjk-body-search {
+  .daoni-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .y5xjk-body-search > input {
+  .daoni-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .y5xjk-body-search > button {
+  .daoni-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .y5xjkbodyMenu {
+  .daonibodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .y5xjk-login {
+  .daoni-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .y5xjk-login span,
-  .y5xjk-login div {
+  .daoni-login span,
+  .daoni-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .y5xjk-login:hover {
+  .daoni-login:hover {
     background-color: #123763;
   }
 
-  .y5xjk-login > * {
+  .daoni-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .y5xjk {
+  .daoni {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .y5xjktitle {
+  .daonititle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .y5xjktitlebody {
+  .daonititlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .y5xjktitlebodytitle {
+  .daonititlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .y5xjktitlebodylang {
+  .daonititlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .y5xjktitlebodylang ul {
+  .daonititlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .y5xjkbody {
+  .daonibody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .y5xjkmenu {
+  .daonimenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .y5xjkmenulist {
+  .daonimenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .y5xjkmenubody {
+  .daonimenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .y5xjkmenulist ul {
+  .daonimenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .y5xjkmenulist ul a {
+  .daonimenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,47 +155,47 @@
     white-space: nowrap;
   }
 
-  .y5xjkmenulist ul a:hover {
+  .daonimenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .y5xjkmenulistactive {
+  .daonimenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .y5xjkmenulistbody {
+  .daonimenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .y5xjkbodylogo {
+    .daonibodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .y5xjkmenu {
+    .daonimenu {
       overflow-x: auto;
     }
 
-    .y5xjkmenulist ul {
+    .daonimenulist ul {
       flex-direction: row;
     }
 
-    .y5xjkbodylogo {
+    .daonibodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .y5xjkmenulist ul a {
+    .daonimenulist ul a {
       font-size: 14px;
     }
   }

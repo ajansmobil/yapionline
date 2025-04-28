@@ -1,5 +1,5 @@
 
-  .boax8-body-search {
+  .fwkgs-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .boax8-body-search > input {
+  .fwkgs-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .boax8-body-search > button {
+  .fwkgs-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .boax8bodyMenu {
+  .fwkgsbodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .boax8-login {
+  .fwkgs-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .boax8-login span,
-  .boax8-login div {
+  .fwkgs-login span,
+  .fwkgs-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .boax8-login:hover {
+  .fwkgs-login:hover {
     background-color: #123763;
   }
 
-  .boax8-login > * {
+  .fwkgs-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .boax8 {
+  .fwkgs {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .boax8title {
+  .fwkgstitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .boax8titlebody {
+  .fwkgstitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .boax8titlebodytitle {
+  .fwkgstitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .boax8titlebodylang {
+  .fwkgstitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .boax8titlebodylang ul {
+  .fwkgstitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .boax8body {
+  .fwkgsbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .boax8menu {
+  .fwkgsmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .boax8menulist {
+  .fwkgsmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .boax8menubody {
+  .fwkgsmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .boax8menulist ul {
+  .fwkgsmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .boax8menulist ul a {
+  .fwkgsmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,47 +155,47 @@
     white-space: nowrap;
   }
 
-  .boax8menulist ul a:hover {
+  .fwkgsmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .boax8menulistactive {
+  .fwkgsmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .boax8menulistbody {
+  .fwkgsmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .boax8bodylogo {
+    .fwkgsbodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .boax8menu {
+    .fwkgsmenu {
       overflow-x: auto;
     }
 
-    .boax8menulist ul {
+    .fwkgsmenulist ul {
       flex-direction: row;
     }
 
-    .boax8bodylogo {
+    .fwkgsbodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .boax8menulist ul a {
+    .fwkgsmenulist ul a {
       font-size: 14px;
     }
   }

@@ -1,5 +1,5 @@
 
-  .sx3kk-body-search {
+  .fa5c7-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .sx3kk-body-search > input {
+  .fa5c7-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .sx3kk-body-search > button {
+  .fa5c7-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .sx3kkbodyMenu {
+  .fa5c7bodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .sx3kk-login {
+  .fa5c7-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .sx3kk-login span,
-  .sx3kk-login div {
+  .fa5c7-login span,
+  .fa5c7-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .sx3kk-login:hover {
+  .fa5c7-login:hover {
     background-color: #123763;
   }
 
-  .sx3kk-login > * {
+  .fa5c7-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .sx3kk {
+  .fa5c7 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .sx3kktitle {
+  .fa5c7title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .sx3kktitlebody {
+  .fa5c7titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .sx3kktitlebodytitle {
+  .fa5c7titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .sx3kktitlebodylang {
+  .fa5c7titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .sx3kktitlebodylang ul {
+  .fa5c7titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .sx3kkbody {
+  .fa5c7body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .sx3kkmenu {
+  .fa5c7menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .sx3kkmenulist {
+  .fa5c7menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .sx3kkmenubody {
+  .fa5c7menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .sx3kkmenulist ul {
+  .fa5c7menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .sx3kkmenulist ul a {
+  .fa5c7menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,341 +155,143 @@
     white-space: nowrap;
   }
 
-  .sx3kkmenulist ul a:hover {
+  .fa5c7menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .sx3kkmenulistactive {
+  .fa5c7menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .sx3kkmenulistbody {
+  .fa5c7menulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .sx3kkbodylogo {
+    .fa5c7bodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .sx3kkmenu {
+    .fa5c7menu {
       overflow-x: auto;
     }
 
-    .sx3kkmenulist ul {
+    .fa5c7menulist ul {
       flex-direction: row;
     }
 
-    .sx3kkbodylogo {
+    .fa5c7bodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .sx3kkmenulist ul a {
+    .fa5c7menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .uwbyn {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    font-family:
-      system-ui,
-      -apple-system,
-      sans-serif;
-    max-width: var(--max);
+  .sag0f {
     width: 100%;
+    height: 500px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
   }
-
-  .uwbynTitle {
-    background: linear-gradient(135deg, #333 0%, #4a4a4a 100%);
-    border-radius: 8px;
+  .sag0f-null {
     color: #fff;
-    padding: 15px;
-    font-size: 1.2em;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .uwbynBody {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .wallet-container {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .balance-card {
-    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
-    border-radius: 15px;
-    padding: 25px;
-    color: white;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  }
-
-  .balance-header {
-    font-size: 1.1em;
-    opacity: 0.9;
-    margin-bottom: 10px;
-  }
-
-  .balance-amount {
-    font-size: 2.5em;
-    font-weight: 600;
-    margin-bottom: 20px;
-  }
-
-  .balance-actions {
-    display: flex;
-    gap: 15px;
-  }
-
-  .action-btn {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
     cursor: pointer;
-    transition: all 0.3s ease;
+    text-align: right;
+    padding: 15px 0px 0px 0px;
+    font-size: 14px;
   }
-
-  .action-btn:hover {
-    background: rgba(255, 255, 255, 0.3);
-    transform: translateY(-2px);
+  .sag0f-null:hover {
+    color: #999;
   }
-
-  .transactions-section {
-    background: white;
-    border-radius: 12px;
+  .sag0f-body {
+    background-color: #101010;
+    width: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sag0f-body-form {
     padding: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  }
-
-  .section-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-
-  .section-header h3 {
-    font-size: 1.2em;
-    color: #333;
-    margin: 0;
-  }
-
-  .filter-select {
-    padding: 8px 12px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    background: #f8f9fa;
-    color: #333;
-    cursor: pointer;
-  }
-
-  .transactions-list {
     display: flex;
     flex-direction: column;
-    gap: 15px;
   }
-
-  .transaction-item {
+  .sag0f-button {
+    padding: 10px;
+    background-color: #123763;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
     display: flex;
     align-items: center;
-    gap: 15px;
-    padding: 15px;
-    background: #f8f9fa;
-    border-radius: 8px;
-    transition: transform 0.2s ease;
+    justify-content: center;
+    cursor: pointer;
   }
-
-  .transaction-item:hover {
-    transform: translateX(5px);
+  .sag0f-login-menu {
+    display: flex;
+    gap: 2px;
   }
-
-  .transaction-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+  #sag0f-login-menu-left {
+    border-radius: 20px 0px 0px 0px;
+    background-color: #101010;
+  }
+  #sag0f-login-menu-right {
+    border-radius: 0px 20px 0px 0px;
+  }
+  #sag0f-memberol {
+    display: none;
+    flex-direction: column;
+  }
+  .media-login {
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+  }
+  .media-login > div {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    gap: 10px;
+    background-color: #444;
+    border-radius: 5px;
+  }
+  .media-login > div > div {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
-  .transaction-icon.deposit {
-    background: #e3f2fd;
-    color: #2196f3;
-  }
-
-  .transaction-icon.payment {
-    background: #fbe9e7;
-    color: #ff5722;
-  }
-
-  .transaction-icon.refund {
-    background: #e8f5e9;
-    color: #4caf50;
-  }
-
-  .transaction-details {
-    flex: 1;
-  }
-
-  .transaction-title {
-    font-weight: 500;
-    color: #333;
-    margin-bottom: 4px;
-  }
-
-  .transaction-date {
-    font-size: 0.9em;
-    color: #666;
-  }
-
-  .transaction-amount {
-    font-weight: 600;
-    font-size: 1.1em;
-  }
-
-  .transaction-amount.positive {
-    color: #4caf50;
-  }
-
-  .transaction-amount.negative {
-    color: #f44336;
-  }
-
-  @media (max-width: 768px) {
-    .balance-actions {
-      flex-direction: column;
-    }
-
-    .action-btn {
-      width: 100%;
-      justify-content: center;
-    }
-
-    .section-header {
-      flex-direction: column;
-      gap: 10px;
-      align-items: flex-start;
-    }
-
-    .filter-select {
-      width: 100%;
-    }
-  }
-
-
-  .hlyt4-profile {
-    background-color: #111;
-    padding: 5px;
-    border-radius: 5px;
-    color: #ffffff !important;
+  .sag0f-login-menu > div {
+    background-color: #123763;
+    width: 100%;
     display: flex;
     align-items: center;
-    gap: 10px;
-  }
-
-  .hlyt4-profile > * {
-    display: flex;
-    align-items: center;
-  }
-
-  .hlyt4-user-img {
-    border-radius: 100%;
-    width: 40px;
-    height: 40px;
-    background-color: #ffffff;
-  }
-
-  .hlyt4 {
-    width: var(--max);
-    display: flex;
-    gap: 15px;
-    margin: 10px 0px 10px 0px;
-  }
-
-  .hlyt4-menu {
-    width: 220px;
+    justify-content: center;
     padding: 10px;
-    background-color: #1e3046;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .hlyt4-menu-title {
-    font-size: 15px;
-    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 400;
     color: #fff;
-    padding: 5px;
-  }
-
-  .hlyt4-menu-category {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  .hlyt4-menu-category > a {
-    color: #fff;
-    padding: 10px;
     cursor: pointer;
-    transition:
-      background-color 0.3s ease,
-      box-shadow 0.3s ease;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border-radius: 9px;
-    border: solid 1px #202020;
-    border-width: 0px 0px 1px 0px;
   }
-
-  .hlyt4-menu-category > a:hover {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-    background-color: #202020;
-    border-radius: 10px;
-  }
-
-  .hlyt4-body {
-    background-color: #ffffff;
-    flex: 1;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    min-height: calc(100vh - 230px);
-  }
-
-  .hlyt4-menu-active {
-    background-color: #202020 !important;
+  #content {
+    justify-content: start;
   }
 
 

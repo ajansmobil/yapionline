@@ -1,5 +1,5 @@
 
-  .wbsp4-body-search {
+  .udrkg-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .wbsp4-body-search > input {
+  .udrkg-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .wbsp4-body-search > button {
+  .udrkg-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .wbsp4bodyMenu {
+  .udrkgbodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .wbsp4-login {
+  .udrkg-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .wbsp4-login span,
-  .wbsp4-login div {
+  .udrkg-login span,
+  .udrkg-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .wbsp4-login:hover {
+  .udrkg-login:hover {
     background-color: #123763;
   }
 
-  .wbsp4-login > * {
+  .udrkg-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .wbsp4 {
+  .udrkg {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .wbsp4title {
+  .udrkgtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .wbsp4titlebody {
+  .udrkgtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .wbsp4titlebodytitle {
+  .udrkgtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .wbsp4titlebodylang {
+  .udrkgtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .wbsp4titlebodylang ul {
+  .udrkgtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .wbsp4body {
+  .udrkgbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .wbsp4menu {
+  .udrkgmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .wbsp4menulist {
+  .udrkgmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .wbsp4menubody {
+  .udrkgmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .wbsp4menulist ul {
+  .udrkgmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .wbsp4menulist ul a {
+  .udrkgmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,53 +155,53 @@
     white-space: nowrap;
   }
 
-  .wbsp4menulist ul a:hover {
+  .udrkgmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .wbsp4menulistactive {
+  .udrkgmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .wbsp4menulistbody {
+  .udrkgmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .wbsp4bodylogo {
+    .udrkgbodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .wbsp4menu {
+    .udrkgmenu {
       overflow-x: auto;
     }
 
-    .wbsp4menulist ul {
+    .udrkgmenulist ul {
       flex-direction: row;
     }
 
-    .wbsp4bodylogo {
+    .udrkgbodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .wbsp4menulist ul a {
+    .udrkgmenulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .hr50e {
+  .bkihr {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -213,7 +213,7 @@
     width: 100%;
   }
 
-  .hr50eTitle {
+  .bkihrTitle {
     background: linear-gradient(135deg, #333 0%, #4a4a4a 100%);
     border-radius: 8px;
     color: #fff;
@@ -225,7 +225,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .hr50eBody {
+  .bkihrBody {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -452,7 +452,7 @@
   }
 
 
-  .zza54-profile {
+  .d70ha-profile {
     background-color: #111;
     padding: 5px;
     border-radius: 5px;
@@ -462,26 +462,26 @@
     gap: 10px;
   }
 
-  .zza54-profile > * {
+  .d70ha-profile > * {
     display: flex;
     align-items: center;
   }
 
-  .zza54-user-img {
+  .d70ha-user-img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
   }
 
-  .zza54 {
+  .d70ha {
     width: var(--max);
     display: flex;
     gap: 15px;
     margin: 10px 0px 10px 0px;
   }
 
-  .zza54-menu {
+  .d70ha-menu {
     width: 220px;
     padding: 10px;
     background-color: #1e3046;
@@ -492,20 +492,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .zza54-menu-title {
+  .d70ha-menu-title {
     font-size: 15px;
     opacity: 0.8;
     color: #fff;
     padding: 5px;
   }
 
-  .zza54-menu-category {
+  .d70ha-menu-category {
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .zza54-menu-category > a {
+  .d70ha-menu-category > a {
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -520,13 +520,13 @@
     border-width: 0px 0px 1px 0px;
   }
 
-  .zza54-menu-category > a:hover {
+  .d70ha-menu-category > a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     background-color: #202020;
     border-radius: 10px;
   }
 
-  .zza54-body {
+  .d70ha-body {
     background-color: #ffffff;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -537,7 +537,7 @@
     min-height: calc(100vh - 230px);
   }
 
-  .zza54-menu-active {
+  .d70ha-menu-active {
     background-color: #202020 !important;
   }
 

@@ -1,5 +1,5 @@
 
-  .nx3sw-body-search {
+  .tizg9-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .nx3sw-body-search > input {
+  .tizg9-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .nx3sw-body-search > button {
+  .tizg9-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .nx3swbodyMenu {
+  .tizg9bodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .nx3sw-login {
+  .tizg9-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .nx3sw-login span,
-  .nx3sw-login div {
+  .tizg9-login span,
+  .tizg9-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .nx3sw-login:hover {
+  .tizg9-login:hover {
     background-color: #123763;
   }
 
-  .nx3sw-login > * {
+  .tizg9-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .nx3sw {
+  .tizg9 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .nx3swtitle {
+  .tizg9title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .nx3swtitlebody {
+  .tizg9titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .nx3swtitlebodytitle {
+  .tizg9titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .nx3swtitlebodylang {
+  .tizg9titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .nx3swtitlebodylang ul {
+  .tizg9titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .nx3swbody {
+  .tizg9body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .nx3swmenu {
+  .tizg9menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .nx3swmenulist {
+  .tizg9menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .nx3swmenubody {
+  .tizg9menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .nx3swmenulist ul {
+  .tizg9menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .nx3swmenulist ul a {
+  .tizg9menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,47 +155,47 @@
     white-space: nowrap;
   }
 
-  .nx3swmenulist ul a:hover {
+  .tizg9menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .nx3swmenulistactive {
+  .tizg9menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .nx3swmenulistbody {
+  .tizg9menulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .nx3swbodylogo {
+    .tizg9bodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .nx3swmenu {
+    .tizg9menu {
       overflow-x: auto;
     }
 
-    .nx3swmenulist ul {
+    .tizg9menulist ul {
       flex-direction: row;
     }
 
-    .nx3swbodylogo {
+    .tizg9bodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .nx3swmenulist ul a {
+    .tizg9menulist ul a {
       font-size: 14px;
     }
   }

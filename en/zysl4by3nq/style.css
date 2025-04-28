@@ -1,5 +1,5 @@
 
-  .gmoen-body-search {
+  .fx7ii-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .gmoen-body-search > input {
+  .fx7ii-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .gmoen-body-search > button {
+  .fx7ii-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .gmoenbodyMenu {
+  .fx7iibodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .gmoen-login {
+  .fx7ii-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .gmoen-login span,
-  .gmoen-login div {
+  .fx7ii-login span,
+  .fx7ii-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .gmoen-login:hover {
+  .fx7ii-login:hover {
     background-color: #123763;
   }
 
-  .gmoen-login > * {
+  .fx7ii-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .gmoen {
+  .fx7ii {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .gmoentitle {
+  .fx7iititle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .gmoentitlebody {
+  .fx7iititlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .gmoentitlebodytitle {
+  .fx7iititlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .gmoentitlebodylang {
+  .fx7iititlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .gmoentitlebodylang ul {
+  .fx7iititlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .gmoenbody {
+  .fx7iibody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .gmoenmenu {
+  .fx7iimenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .gmoenmenulist {
+  .fx7iimenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .gmoenmenubody {
+  .fx7iimenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .gmoenmenulist ul {
+  .fx7iimenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .gmoenmenulist ul a {
+  .fx7iimenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,47 +155,47 @@
     white-space: nowrap;
   }
 
-  .gmoenmenulist ul a:hover {
+  .fx7iimenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .gmoenmenulistactive {
+  .fx7iimenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .gmoenmenulistbody {
+  .fx7iimenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .gmoenbodylogo {
+    .fx7iibodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .gmoenmenu {
+    .fx7iimenu {
       overflow-x: auto;
     }
 
-    .gmoenmenulist ul {
+    .fx7iimenulist ul {
       flex-direction: row;
     }
 
-    .gmoenbodylogo {
+    .fx7iibodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .gmoenmenulist ul a {
+    .fx7iimenulist ul a {
       font-size: 14px;
     }
   }

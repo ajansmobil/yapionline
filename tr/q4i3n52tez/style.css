@@ -1,5 +1,5 @@
 
-  .qamb4-body-search {
+  .yw2vb-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .qamb4-body-search > input {
+  .yw2vb-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .qamb4-body-search > button {
+  .yw2vb-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .qamb4bodyMenu {
+  .yw2vbbodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .qamb4-login {
+  .yw2vb-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .qamb4-login span,
-  .qamb4-login div {
+  .yw2vb-login span,
+  .yw2vb-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .qamb4-login:hover {
+  .yw2vb-login:hover {
     background-color: #123763;
   }
 
-  .qamb4-login > * {
+  .yw2vb-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .qamb4 {
+  .yw2vb {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .qamb4title {
+  .yw2vbtitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .qamb4titlebody {
+  .yw2vbtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .qamb4titlebodytitle {
+  .yw2vbtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .qamb4titlebodylang {
+  .yw2vbtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .qamb4titlebodylang ul {
+  .yw2vbtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .qamb4body {
+  .yw2vbbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .qamb4menu {
+  .yw2vbmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .qamb4menulist {
+  .yw2vbmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .qamb4menubody {
+  .yw2vbmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .qamb4menulist ul {
+  .yw2vbmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .qamb4menulist ul a {
+  .yw2vbmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,47 +155,47 @@
     white-space: nowrap;
   }
 
-  .qamb4menulist ul a:hover {
+  .yw2vbmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .qamb4menulistactive {
+  .yw2vbmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .qamb4menulistbody {
+  .yw2vbmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .qamb4bodylogo {
+    .yw2vbbodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .qamb4menu {
+    .yw2vbmenu {
       overflow-x: auto;
     }
 
-    .qamb4menulist ul {
+    .yw2vbmenulist ul {
       flex-direction: row;
     }
 
-    .qamb4bodylogo {
+    .yw2vbbodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .qamb4menulist ul a {
+    .yw2vbmenulist ul a {
       font-size: 14px;
     }
   }

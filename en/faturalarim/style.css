@@ -1,5 +1,5 @@
 
-  .zivbd-body-search {
+  .p5uh9-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .zivbd-body-search > input {
+  .p5uh9-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .zivbd-body-search > button {
+  .p5uh9-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .zivbdbodyMenu {
+  .p5uh9bodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .zivbd-login {
+  .p5uh9-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .zivbd-login span,
-  .zivbd-login div {
+  .p5uh9-login span,
+  .p5uh9-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .zivbd-login:hover {
+  .p5uh9-login:hover {
     background-color: #123763;
   }
 
-  .zivbd-login > * {
+  .p5uh9-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .zivbd {
+  .p5uh9 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .zivbdtitle {
+  .p5uh9title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .zivbdtitlebody {
+  .p5uh9titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .zivbdtitlebodytitle {
+  .p5uh9titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .zivbdtitlebodylang {
+  .p5uh9titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .zivbdtitlebodylang ul {
+  .p5uh9titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .zivbdbody {
+  .p5uh9body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .zivbdmenu {
+  .p5uh9menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .zivbdmenulist {
+  .p5uh9menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .zivbdmenubody {
+  .p5uh9menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .zivbdmenulist ul {
+  .p5uh9menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .zivbdmenulist ul a {
+  .p5uh9menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,53 +155,53 @@
     white-space: nowrap;
   }
 
-  .zivbdmenulist ul a:hover {
+  .p5uh9menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .zivbdmenulistactive {
+  .p5uh9menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .zivbdmenulistbody {
+  .p5uh9menulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .zivbdbodylogo {
+    .p5uh9bodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .zivbdmenu {
+    .p5uh9menu {
       overflow-x: auto;
     }
 
-    .zivbdmenulist ul {
+    .p5uh9menulist ul {
       flex-direction: row;
     }
 
-    .zivbdbodylogo {
+    .p5uh9bodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .zivbdmenulist ul a {
+    .p5uh9menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .aztxp {
+  .oel81 {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -211,7 +211,7 @@
       sans-serif;
   }
 
-  .aztxpTitle {
+  .oel81Title {
     background: linear-gradient(135deg, #333 0%, #4a4a4a 100%);
     border-radius: 8px;
     color: #fff;
@@ -223,7 +223,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .aztxpBody {
+  .oel81Body {
     display: flex;
     min-height: 500px;
   }
@@ -383,7 +383,7 @@
   }
 
 
-  .x25lf-profile {
+  .b57zz-profile {
     background-color: #111;
     padding: 5px;
     border-radius: 5px;
@@ -393,26 +393,26 @@
     gap: 10px;
   }
 
-  .x25lf-profile > * {
+  .b57zz-profile > * {
     display: flex;
     align-items: center;
   }
 
-  .x25lf-user-img {
+  .b57zz-user-img {
     border-radius: 100%;
     width: 40px;
     height: 40px;
     background-color: #ffffff;
   }
 
-  .x25lf {
+  .b57zz {
     width: var(--max);
     display: flex;
     gap: 15px;
     margin: 10px 0px 10px 0px;
   }
 
-  .x25lf-menu {
+  .b57zz-menu {
     width: 220px;
     padding: 10px;
     background-color: #1e3046;
@@ -423,20 +423,20 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .x25lf-menu-title {
+  .b57zz-menu-title {
     font-size: 15px;
     opacity: 0.8;
     color: #fff;
     padding: 5px;
   }
 
-  .x25lf-menu-category {
+  .b57zz-menu-category {
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
 
-  .x25lf-menu-category > a {
+  .b57zz-menu-category > a {
     color: #fff;
     padding: 10px;
     cursor: pointer;
@@ -451,13 +451,13 @@
     border-width: 0px 0px 1px 0px;
   }
 
-  .x25lf-menu-category > a:hover {
+  .b57zz-menu-category > a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     background-color: #202020;
     border-radius: 10px;
   }
 
-  .x25lf-body {
+  .b57zz-body {
     background-color: #ffffff;
     flex: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -468,7 +468,7 @@
     min-height: calc(100vh - 230px);
   }
 
-  .x25lf-menu-active {
+  .b57zz-menu-active {
     background-color: #202020 !important;
   }
 

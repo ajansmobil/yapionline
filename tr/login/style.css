@@ -1,5 +1,5 @@
 
-  .fa5c7-body-search {
+  .bluj1-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .fa5c7-body-search > input {
+  .bluj1-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .fa5c7-body-search > button {
+  .bluj1-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .fa5c7bodyMenu {
+  .bluj1bodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .fa5c7-login {
+  .bluj1-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .fa5c7-login span,
-  .fa5c7-login div {
+  .bluj1-login span,
+  .bluj1-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .fa5c7-login:hover {
+  .bluj1-login:hover {
     background-color: #123763;
   }
 
-  .fa5c7-login > * {
+  .bluj1-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .fa5c7 {
+  .bluj1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .fa5c7title {
+  .bluj1title {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .fa5c7titlebody {
+  .bluj1titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .fa5c7titlebodytitle {
+  .bluj1titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .fa5c7titlebodylang {
+  .bluj1titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .fa5c7titlebodylang ul {
+  .bluj1titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .fa5c7body {
+  .bluj1body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .fa5c7menu {
+  .bluj1menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .fa5c7menulist {
+  .bluj1menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .fa5c7menubody {
+  .bluj1menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .fa5c7menulist ul {
+  .bluj1menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .fa5c7menulist ul a {
+  .bluj1menulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,53 +155,53 @@
     white-space: nowrap;
   }
 
-  .fa5c7menulist ul a:hover {
+  .bluj1menulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .fa5c7menulistactive {
+  .bluj1menulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .fa5c7menulistbody {
+  .bluj1menulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .fa5c7bodylogo {
+    .bluj1bodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .fa5c7menu {
+    .bluj1menu {
       overflow-x: auto;
     }
 
-    .fa5c7menulist ul {
+    .bluj1menulist ul {
       flex-direction: row;
     }
 
-    .fa5c7bodylogo {
+    .bluj1bodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .fa5c7menulist ul a {
+    .bluj1menulist ul a {
       font-size: 14px;
     }
   }
 
 
-  .sag0f {
+  .tp6w5 {
     width: 100%;
     height: 500px;
     flex: 1;
@@ -210,29 +210,34 @@
     justify-content: center;
     margin-top: 20px;
   }
-  .sag0f-null {
+
+  .tp6w5-null {
     color: #fff;
     cursor: pointer;
     text-align: right;
     padding: 15px 0px 0px 0px;
     font-size: 14px;
   }
-  .sag0f-null:hover {
+
+  .tp6w5-null:hover {
     color: #999;
   }
-  .sag0f-body {
+
+  .tp6w5-body {
     background-color: #101010;
     width: 500px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
   }
-  .sag0f-body-form {
+
+  .tp6w5-body-form {
     padding: 20px;
     display: flex;
     flex-direction: column;
   }
-  .sag0f-button {
+
+  .tp6w5-button {
     padding: 10px;
     background-color: #123763;
     margin-top: 20px;
@@ -244,27 +249,33 @@
     justify-content: center;
     cursor: pointer;
   }
-  .sag0f-login-menu {
+
+  .tp6w5-login-menu {
     display: flex;
     gap: 2px;
   }
-  #sag0f-login-menu-left {
+
+  #tp6w5-login-menu-left {
     border-radius: 20px 0px 0px 0px;
     background-color: #101010;
   }
-  #sag0f-login-menu-right {
+
+  #tp6w5-login-menu-right {
     border-radius: 0px 20px 0px 0px;
   }
-  #sag0f-memberol {
+
+  #tp6w5-memberol {
     display: none;
     flex-direction: column;
   }
+
   .media-login {
     display: flex;
     padding: 20px;
     gap: 10px;
   }
-  .media-login > div {
+
+  .media-login>div {
     display: flex;
     width: 100%;
     padding: 5px;
@@ -273,12 +284,14 @@
     background-color: #444;
     border-radius: 5px;
   }
-  .media-login > div > div {
+
+  .media-login>div>div {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .sag0f-login-menu > div {
+
+  .tp6w5-login-menu>div {
     background-color: #123763;
     width: 100%;
     display: flex;
@@ -290,6 +303,7 @@
     color: #fff;
     cursor: pointer;
   }
+
   #content {
     justify-content: start;
   }

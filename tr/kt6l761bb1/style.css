@@ -1,5 +1,5 @@
 
-  .tizg9-body-search {
+  .xzxjp-body-search {
     display: flex;
     width: 100%;
     padding: 10px;
@@ -8,7 +8,7 @@
     gap: 10px;
   }
 
-  .tizg9-body-search > input {
+  .xzxjp-body-search > input {
     width: 100%;
     background-color: transparent;
     border-style: none;
@@ -17,18 +17,18 @@
     color: #fff !important;
   }
 
-  .tizg9-body-search > button {
+  .xzxjp-body-search > button {
     background-color: transparent;
     border-style: none;
     color: #fff !important;
   }
 
-  .tizg9bodyMenu {
+  .xzxjpbodyMenu {
     display: flex;
     gap: 10px;
   }
 
-  .tizg9-login {
+  .xzxjp-login {
     display: flex;
     background-color: #1e3046;
     color: #fff !important;
@@ -42,25 +42,25 @@
     white-space: nowrap;
   }
 
-  .tizg9-login span,
-  .tizg9-login div {
+  .xzxjp-login span,
+  .xzxjp-login div {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
     /* Her iki elemanı satır içi blok yap */
   }
 
-  .tizg9-login:hover {
+  .xzxjp-login:hover {
     background-color: #123763;
   }
 
-  .tizg9-login > * {
+  .xzxjp-login > * {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .tizg9 {
+  .xzxjp {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     justify-content: center;
   }
 
-  .tizg9title {
+  .xzxjptitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -76,7 +76,7 @@
     justify-content: center;
   }
 
-  .tizg9titlebody {
+  .xzxjptitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -84,24 +84,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .tizg9titlebodytitle {
+  .xzxjptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .tizg9titlebodylang {
+  .xzxjptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .tizg9titlebodylang ul {
+  .xzxjptitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .tizg9body {
+  .xzxjpbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -110,14 +110,14 @@
     gap: 10px;
   }
 
-  .tizg9menu {
+  .xzxjpmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .tizg9menulist {
+  .xzxjpmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .tizg9menubody {
+  .xzxjpmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .tizg9menulist ul {
+  .xzxjpmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -143,7 +143,7 @@
     overflow-x: auto;
   }
 
-  .tizg9menulist ul a {
+  .xzxjpmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -155,47 +155,47 @@
     white-space: nowrap;
   }
 
-  .tizg9menulist ul a:hover {
+  .xzxjpmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .tizg9menulistactive {
+  .xzxjpmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .tizg9menulistbody {
+  .xzxjpmenulistbody {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .tizg9bodylogo {
+    .xzxjpbodylogo {
       height: 50px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .tizg9menu {
+    .xzxjpmenu {
       overflow-x: auto;
     }
 
-    .tizg9menulist ul {
+    .xzxjpmenulist ul {
       flex-direction: row;
     }
 
-    .tizg9bodylogo {
+    .xzxjpbodylogo {
       height: none !important;
       max-width: 80% !important;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .tizg9menulist ul a {
+    .xzxjpmenulist ul a {
       font-size: 14px;
     }
   }

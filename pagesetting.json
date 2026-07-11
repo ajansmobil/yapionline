@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "name": "Sayfalar",
+      "path": "page",
+      "desc": [],
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "page": true,
+        "body": true,
+        "detail": true,
+        "img": true
+      }
+    },
+    {
+      "name": "User",
+      "path": "user",
+      "desc": [],
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": ["b2u57n"],
+        "footer": []
+      },
+      "modulestatus": {
+        "body": true,
+        "icon": true
+      }
+    },
+    {
+      "name": "Admin",
+      "path": "admin",
+      "desc": [],
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "body": true
+      }
+    },
+    {
+      "name": "Ürünler",
+      "path": "products",
+      "desc": [],
+      "index": 3,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "img": true
+      }
+    }
+  ]
+}

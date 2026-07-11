@@ -1,0 +1,204 @@
+{
+  "name": "Sayfalar",
+  "path": "page",
+  "desc": [],
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "body": true,
+    "detail": true,
+    "img": true
+  },
+  "data": [
+    {
+      "name": {
+        "tr": "Beton",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "kt6l761bb1",
+      "externalUrl": "",
+      "path": "kt6l761bb1",
+      "keyword": {
+        "tr": "",
+        "en": ""
+      },
+      "description": {
+        "tr": "",
+        "en": ""
+      },
+      "spot": {
+        "tr": "",
+        "en": ""
+      },
+      "desc": {},
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Demir",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "zysl4by3nq",
+      "externalUrl": "",
+      "path": "zysl4by3nq",
+      "keyword": {
+        "tr": "",
+        "en": ""
+      },
+      "description": {
+        "tr": "",
+        "en": ""
+      },
+      "spot": {
+        "tr": "",
+        "en": ""
+      },
+      "desc": {},
+      "index": 1,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Vitrifiye",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "lcfax5qesy",
+      "externalUrl": "",
+      "path": "lcfax5qesy",
+      "keyword": {
+        "tr": "",
+        "en": ""
+      },
+      "description": {
+        "tr": "",
+        "en": ""
+      },
+      "spot": {
+        "tr": "",
+        "en": ""
+      },
+      "desc": {},
+      "index": 2,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Fayans",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "q4i3n52tez",
+      "externalUrl": "",
+      "path": "q4i3n52tez",
+      "keyword": {
+        "tr": "",
+        "en": ""
+      },
+      "description": {
+        "tr": "",
+        "en": ""
+      },
+      "spot": {
+        "tr": "",
+        "en": ""
+      },
+      "desc": {},
+      "index": 3,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Boya",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "lxaara7mtm",
+      "externalUrl": "",
+      "path": "lxaara7mtm",
+      "keyword": {
+        "tr": "",
+        "en": ""
+      },
+      "description": {
+        "tr": "",
+        "en": ""
+      },
+      "spot": {
+        "tr": "",
+        "en": ""
+      },
+      "desc": {},
+      "index": 4,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    },
+    {
+      "name": {
+        "tr": "Hırdavat",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "h3p1iw04bq",
+      "externalUrl": "",
+      "path": "h3p1iw04bq",
+      "keyword": {
+        "tr": "",
+        "en": ""
+      },
+      "description": {
+        "tr": "",
+        "en": ""
+      },
+      "spot": {
+        "tr": "",
+        "en": ""
+      },
+      "desc": {},
+      "index": 5,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      }
+    }
+  ]
+}

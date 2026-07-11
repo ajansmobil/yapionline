@@ -1,0 +1,28 @@
+{
+  "order": true,
+  "user": true,
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "multi": false,
+  "category": "Eticaret",
+  "name": "Yapı Online",
+  "domain": "yapionline.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": false,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  }
+}

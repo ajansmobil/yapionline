@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "New Page",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "skvawee0x4",
+      "externalUrl": "",
+      "path": "skvawee0x4",
+      "keyword": {
+        "tr": "",
+        "en": ""
+      },
+      "description": {
+        "tr": "",
+        "en": ""
+      },
+      "spot": {
+        "tr": "",
+        "en": ""
+      },
+      "index": 0,
+      "desc": {}
+    }
+  ],
+  "name": "Ürünler",
+  "path": "products",
+  "desc": [],
+  "index": 3,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": true
+  }
+}

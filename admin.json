@@ -1,0 +1,48 @@
+{
+  "name": "Admin",
+  "path": "admin",
+  "desc": [],
+  "index": 2,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "body": true
+  },
+  "data": [
+    {
+      "name": {
+        "tr": "Login",
+        "en": ""
+      },
+      "status": "play",
+      "category": "",
+      "id": "ji9pq5ytfl",
+      "externalUrl": "",
+      "path": "login",
+      "keyword": {
+        "tr": "",
+        "en": ""
+      },
+      "description": {
+        "tr": "",
+        "en": ""
+      },
+      "spot": {
+        "tr": "",
+        "en": ""
+      },
+      "index": 0,
+      "desc": {},
+      "desing": {
+        "header": [],
+        "body": [
+          "qu3nte"
+        ],
+        "footer": []
+      }
+    }
+  ]
+}
